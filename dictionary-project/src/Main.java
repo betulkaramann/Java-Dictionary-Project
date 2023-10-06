@@ -30,7 +30,7 @@ public class Main {
         System.out.println(title);
         while (true) {
             System.out.print("Kelime : ");
-            String value = scanner.nextLine();
+            String value = scanner.next();
             if (value.equals("0")) {
                 for (String menu : mainMenu) {
                     System.out.println(menu);
